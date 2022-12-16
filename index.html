@@ -13,5 +13,17 @@
 
     <title>PHP Dischi JSON</title>
   </head>
-  <body></body>
+  <body>
+    <div id="app">
+      <ul>
+        <li v-for="disco in dischi">
+          <div class="cover"><img :src="disco.poster" /></div>
+          <h4>{{disco.title}}</h4>
+          <span>{{disco.author}}</span>
+          <h4>{{disco.year}}</h4>
+        </li>
+      </ul>
+    </div>
+    <script src="main.js"></script>
+  </body>
 </html>
