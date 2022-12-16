@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #06131f;
+  height: 70px;
+}
+.logo {
+  width: 70px;
+  padding: 20px;
+  margin-right: 40px;
+}
+.dischi {
+  background-color: #1d2d3c;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 30px;
+}
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  list-style: none;
+  color: white;
+}
+.cards {
+  width: calc(100% / 3 - 50px);
+  margin: 50px 25px;
+  background-color: #112030;
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+.cover {
+  width: 100%;
+}
